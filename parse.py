@@ -7,10 +7,7 @@ def get_info_from_id(id):
 
     matchup_token = '\"gameMatchup\":\"'
     matchup_index_left = raw_html.index(matchup_token) + len(matchup_token)
-    if ValueError:
-        print('gEGE')
-        exit(0)
-
+ 
     matchup_index_right = matchup_index_left
     while (raw_html[matchup_index_right] != '\"'):
         matchup_index_right+=1
