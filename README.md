@@ -5,3 +5,9 @@ This tool scrapes through www.nba.com/[game-id-number]/play-by-play to display s
 ## Usage
 
 Run [main.py](main.py) with an appropriate directory structure and tweak the game range if necessary.
+
+## Example
+
+This is a generated score-change graph from a game between Utah and Houston on 05/08/2021. The `avg_diff` textbox means that on average, Utah led this match by 8.86 points. 
+
+![example graph](ex1.jpg)
