@@ -21,7 +21,8 @@ def get_info_from_id(id):
     end_index = sub_left.index(end) + 1
     plays_raw = '{' + sub_left[:end_index] + '}'
 
-    with open('output.txt', 'w') as f:
+    with open('debug.txt', 'w') as f:
         print(raw_html, file=f)
+    
     plays = json.loads(plays_raw)["actions"]
     return matchup, plays
